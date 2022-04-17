@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+.field {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vw;
+    height: 40vw;
+    border: 1vw solid rgb(221, 168, 68);
+    margin: 2.5vw auto;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.5%;
+    height: 12.5%;
+    box-sizing:border-box;
+}
+
+.cemetery_figurs_black {
+    width:25vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 5vw;
+    left: 73vw;
+    
+}
+.cemetery_figurs_white {
+    width:25vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 5vw;
+    left: 2vw;
+}
+
+
+
+.figure {
+    height: 80%;
+    text-align: center;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.gray {
+    background-color: gray;
+}
+.active {
+    border: solid 0.5vw rgb(212, 185, 31);
+}
+
+.active_figure {
+    height: 95%;
+}
+
+.red {
+    background-color: red;
+}
+
+.menu {
+    position: absolute;
+    left: 9.5vw;
+    top: 4.5vw;
+    width: 19vw;
+    height: 29vw;
+    background-color: rgba(220, 219, 139, 0.801);
+    box-shadow: 6px 5px 4px 3px rgba(0, 0, 0, 0.411);
+    border-radius: 2%;
+    text-align: center;
+    padding-top: 1.3vw;
+}
+
+.btn {
+    margin-top: 2vw;
+    width: 75%;
+    height: 15%;
+    font-size: 2vw;
+}
+
+.show {
+    display: none;
+}
+
+.blocking {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
