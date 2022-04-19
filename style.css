@@ -87,7 +87,7 @@
     margin-top: 2vw;
     width: 75%;
     height: 15%;
-    font-size: 2vw;
+    font-size: 1.9vw;
 }
 
 .show {
@@ -98,4 +98,33 @@
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+@media (max-width:600px) {
+    .field {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .menu {
+        left: 19vw;
+        top: 9vw;
+        width: 39.5vw;
+        height: 59.5vw;
+        padding-top: 2.6vw;
+    }
+
+    .btn {
+        font-size: 4vw;
+    }
+
+    .cemetery_figurs_black {
+        top: 90vw;
+        left: 65vw;
+        
+    }
+    .cemetery_figurs_white {
+        top: 90vw;
+        left: 10vw;
+    }
 }
